@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
 
 @font-face {
-  font-family: 'BerkshireSwash-Regular';
-  src: 'Fonts/BerkshireSwash-Regular.ttf' format('truetype');
+  font-family: berkshire;
+  src: url('fonts/BerkshireSwash-Regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: righteous;
+  src: url("fonts/Righteous-Regular.ttf");
+ }
+
+ @font-face {
+  font-family: rocker;
+  src: url("fonts/NewRocker-Regular.ttf");
+ }
 
 body {
   margin: 5vw 10vw 0px 10vw;
